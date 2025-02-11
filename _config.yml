@@ -1,11 +1,11 @@
-title: Meu Portfólio
+title: Nathan Dezan
 description: Bem-vindo ao meu portfólio!
-baseurl: "" # Mantenha vazio se estiver hospedando no root
-url: "https://SEU_USUARIO.github.io/portfolio"
+baseurl: ""
+url: "https://nathandezan.github.io/"
 theme: minima
 author: 
-  name: Seu Nome
-  email: seuemail@email.com
-  github: https://github.com/SEU_USUARIO
+  name: Nathan Dezan
+  email: dezannathan@email.com
+  github: https://github.com/NathanDezan
 markdown: kramdown
 permalink: pretty
