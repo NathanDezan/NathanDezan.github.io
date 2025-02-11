@@ -12,6 +12,6 @@ permalink: pretty
 minima:
   skin: dark
 header_pages:
-  - home.md
+  - index.md
   - projects.md
   - about.md
