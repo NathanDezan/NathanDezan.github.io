@@ -9,3 +9,7 @@ author:
   github: https://github.com/NathanDezan
 markdown: kramdown
 permalink: pretty
+header_pages:
+  - home.md
+  - projects.md
+  - about.md
