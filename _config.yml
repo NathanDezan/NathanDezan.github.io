@@ -1,2 +1,16 @@
-theme: jekyll-theme-minimal
-title: Portifolio Nathan Dezan
+title: Nathan Dezan
+theme: minima
+plugins:
+  - jekyll-feed
+
+# Configurações personalizadas
+custom:
+  name: "Nathan Dezan"
+  role: "AI/ML Engineer"
+  menu:
+    - name: "Home"
+      url: "/"
+    - name: "Projects"
+      url: "/projects"
+    - name: "About"
+      url: "/about"

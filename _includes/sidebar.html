@@ -1,0 +1,15 @@
+<div class="sidebar">
+    <div class="profile">
+        <h1>{{ site.custom.name }}</h1>
+        <p class="role">{{ site.custom.role }}</p>
+        <img src="/assets/images/logo-placeholder.png" alt="Logo" class="logo">
+    </div>
+    
+    <nav class="menu">
+        {% for item in site.custom.menu %}
+            <a href="{{ item.url }}" {% if page.url == item.url %}class="active"{% endif %}>
+                {{ item.name }}
+            </a>
+        {% endfor %}
+    </nav>
+</div>
