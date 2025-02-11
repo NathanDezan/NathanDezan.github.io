@@ -1,14 +1,16 @@
 ---
-layout: default
-title: Projects
+layout: page
+title: "Projects"
+permalink: /projects/
 ---
 
-## Projetos Destacados
+## Projetos Recentes
 
-### Sistema de Busca Semântica
-- Implementação com LLMs e técnicas RAG
-- Aumento de 30% na assertividade das respostas
+### Projeto 1 - Site de Blog
+Descrição: Um site de blog simples feito com HTML e CSS.
 
-### Hub de Ferramentas LLM
-- Automação do ciclo completo de projetos
-- Redução de 30% nos custos de desenvolvimento
+### Projeto 2 - Calculadora de IMC
+Descrição: Uma calculadora web feita com JavaScript.
+
+### Projeto 3 - Aplicativo de Tarefas
+Descrição: Uma aplicação de gerenciamento de tarefas com React.

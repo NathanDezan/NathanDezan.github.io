@@ -1,12 +1,10 @@
 ---
-layout: default
-title: About
+layout: page
+title: "About"
+permalink: /about/
 ---
 
-## Contato
-- Email: dezanathan@gmail.com
-- LinkedIn: [linkedin.com/in/nathan-dezan](https://www.linkedin.com/in/nathan-dezan-002b121b2)
+## Sobre Mim
 
-## Certificações
-- Docker: Criando containers sem dor de cabeça
-- NodeJS: Criando sua primeira biblioteca
+Sou um desenvolvedor web apaixonado por criar soluções digitais criativas e funcionais.  
+Experiência em Frontend, Backend e projetos open-source.
