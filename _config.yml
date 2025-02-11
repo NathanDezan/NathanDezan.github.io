@@ -3,14 +3,14 @@ description: Bem-vindo ao meu portfólio!
 baseurl: ""
 url: "https://nathandezan.github.io/"
 theme: minima
-sass:
-  style: compressed
 author: 
   name: Nathan Dezan
   email: dezannathan@email.com
   github: https://github.com/NathanDezan
 markdown: kramdown
 permalink: pretty
+minima:
+  skin: dark
 header_pages:
   - home.md
   - projects.md
