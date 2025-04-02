@@ -1,0 +1,64 @@
+/* 
+Styles for the left column of the home page layout:
+- `.left-column`: Defines a flexible column with a maximum width of 300px, adapting to 100% width on smaller screens (max-width: 768px).
+- `.profile-photo`: Styles the profile photo with a circular shape, specific dimensions, and responsive adjustments for smaller screens.
+- `.profile-card`: Centers content with padding and text alignment, including specific styles for the heading (`h1`) and margin adjustments.
+- `.position`: Applies font color and weight for the position text.
+- `.social-links`: Creates a flex container for social media links, with spacing, hover effects, and smooth transitions for interactivity.
+*/
+
+.left-column {
+    flex: 1;
+    max-width: 300px;
+}
+
+@media (max-width: 768px) {
+    .left-column {
+        max-width: 100%;
+    }
+
+    .profile-photo {
+        width: 170px;
+        height: 170px;
+    }
+}
+
+.profile-card {
+    padding: 2.5rem;
+    text-align: center;
+}
+
+.profile-card h1 {
+    font-size: 1.8rem;
+    color: var(--font-home-page-color);
+    margin-bottom: 0.5rem;
+}
+
+.profile-photo {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 1.5rem;
+}
+
+.position {
+    color: var(--font-home-page-color);
+    font-weight: 600;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-top: 1em;
+}
+
+.social-links a {
+    font-size: 1.5rem;
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.social-links a:hover {
+    transform: translateY(-3px) scale(1.1);
+}

@@ -1,0 +1,66 @@
+/*
+Description:
+This CSS file defines the general styles for the home page, including global resets, 
+body styling, and layout configurations for the content and columns container.
+
+Styles:
+1. Global Reset:
+    - Removes default margin and padding for all elements.
+    - Sets box-sizing to border-box for consistent sizing.
+    - Applies a default font-family ('Inter', system-ui, sans-serif).
+
+2. Body Styling:
+    - Sets a line-height for better text readability.
+    - Removes default margin and padding.
+    - Applies a background image with specific size, position, and attachment properties.
+    - Sets a default font color using a CSS variable (--font-home-page-color).
+
+3. Content Section:
+    - Adds a top margin to the #content element.
+
+4. Columns Container:
+    - Uses flexbox for layout with a gap between items.
+    - Sets a maximum width and centers the container.
+    - Adds horizontal padding for spacing.
+
+5. Responsive Design:
+    - Adjusts the .columns-container layout for screens with a maximum width of 768px.
+    - Changes the flex direction to column and reduces horizontal padding.
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', system-ui, sans-serif;
+}
+
+body {
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-image: url('../../resources/background.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: var(--font-home-page-color);
+}
+
+#content {
+    margin-top: 50px;
+}
+
+.columns-container {
+    display: flex;
+    gap: 3rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+}
+
+@media (max-width: 768px) {
+    .columns-container {
+        flex-direction: column;
+        padding: 0 1rem;
+    }
+}
