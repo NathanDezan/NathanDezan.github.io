@@ -1,0 +1,134 @@
+<!--
+This HTML file represents the homepage of Nathan Dezan's personal website in Brazilian Portuguese (pt-br).
+It is structured into several sections, including navigation, a profile card, and content columns.
+
+Structure:
+1. Head Section:
+    - Sets the document language to "pt-br".
+    - Includes meta tags for character encoding and viewport settings.
+    - Links to external and internal CSS stylesheets for styling.
+    - Links to Font Awesome for icons.
+
+2. Navigation Bar:
+    - Contains links to different pages of the website (HOME, PROJECTS, PAPERS, ABOUT).
+    - Includes a language switch button with a flag icon to navigate to the English version of the homepage.
+
+3. Content Section:
+    - Divided into two columns:
+      a. Left Column:
+          - Displays a profile card with a photo, name, position, and social media links (GitHub, LinkedIn, Instagram, Medium).
+      b. Right Column:
+          - Contains an "About" section with a description of expertise and interests.
+          - Includes a button to download the CV.
+          - Displays additional information such as interests and education.
+
+4. JavaScript:
+    - Links to an external JavaScript file (downloadCV.js) to handle the CV download functionality.
+
+Key Features:
+- Responsive design using linked CSS stylesheets.
+- Social media integration with Font Awesome icons.
+- Multilingual support with a language switch button.
+- Organized content layout with clear sections for profile, interests, and education.
+
+Usage:
+- This file is intended to be part of a personal portfolio website and should be placed in the appropriate directory structure as indicated by the file path.
+-->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nathan Dezan</title>
+    <link rel="stylesheet" href="../../styles/home/general.css">
+    <link rel="stylesheet" href="../../styles/pallet.css">
+    <link rel="stylesheet" href="../../styles/home/nav-bar.css">
+    <link rel="stylesheet" href="../../styles/home/left-column.css">
+    <link rel="stylesheet" href="../../styles/home/right-column.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="home.html">HOME</a></li>
+            <li><a href="projects.html">PROJECTS</a></li>
+            <li><a href="papers.html">PAPERS</a></li>
+            <li><a href="papers.html">ABOUT</a></li>
+        </ul>
+        <div class="language-div">
+            <a id="languageButton" class="language-btn" href="../en/home.html">
+                <img src="../../resources/united-states-flat.png" alt="en" class="flag-icon">
+            </a>
+        </div>
+    </nav>
+
+    <section id="content">
+        <div class="columns-container">
+            <div class="left-column">
+                <div class="profile-card">
+                    <img src="../../resources/photo.jpeg" alt="Nathan Dezan" class="profile-photo">
+                    <h1>Nathan Dezan</h1>
+                    <p class="position">AI/ML Engineer | AWS Cloud</p>
+                    <div class="social-links">
+                        <a href="https://github.com/NathanDezan" target="_blank">
+                            <i class="fa-brands fa-github" style="color: #F0F0F0;"></i>
+                        </a>
+                        <a href="https://linkedin.com/in/nathan-dezan-002b121b2" target="_blank">
+                            <i class="fa-brands fa-linkedin" style="color: #F0F0F0;"></i>
+                        </a>
+                        <a href="https://www.instagram.com/dezan.nathan" target="_blank">
+                            <i class="fa-brands fa-instagram" style="color: #F0F0F0;"></i>
+                        </a>
+                        <a href="https://medium.com/@dezann" target="_blank">
+                            <i class="fa-brands fa-medium" style="color: #F0F0F0;"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="right-column">
+                <div class="about-section">
+                    <h2>Sobre</h2>
+                    <p>Se especializando em IA Generativa e Computação em Nuvem, desenvolvo soluções utilizando LLMs
+                        (Large
+                        Language Models) e frameworks como LangChain para chatbots e sistemas inteligentes. Com grande
+                        interesse em programação de baixo nível, integro minha expertise em Aprendizado de Máquina
+                        (TensorFlow, PyTorch) em projetos práticos envolvendo Raspberry Pi e IoT. E interessado por
+                        pesquisa científica no campo da IA.</p>
+                    <button class="cv-button" onclick="downloadCV('pt-br')">Download CV</button>
+                </div>
+
+                <div class="info-columns">
+                    <div class="interests-section">
+                        <h3>Interesses</h3>
+                        <ul>
+                            <li>Artificial Intelligence</li>
+                            <li>Machine Learning</li>
+                            <li>Cloud Computing</li>
+                            <li>Natural Language Processing</li>
+                        </ul>
+                    </div>
+
+                    <div class="education-section">
+                        <h3>Formação</h3>
+                        <div class="education-entry">
+                            <i class="fa-solid fa-graduation-cap" style="color: #ffffff;"></i>
+                            <div class="education-content">
+                                <p class="degree">
+                                    Bacharel em Sistemas de Informação
+                                </p>
+                                <p class="institution">Universidade Federal de Mato Grosso do Sul</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="../../js/downloadCV.js"></script>
+</body>
+
+</html>
