@@ -1,4 +1,9 @@
 :root {
     --nav-bar-color: #0a1717;
     --font-home-page-color: #f0f0f0;
+    --paragraph-font-color-projects: #cccccc;
+    --paper-card-background-color: #1f1f1f7b;
+    --paper-card-background-color-hover: #2d2d2d7b;
+    --subtitle-font-color-paper-card: #666;
+    --hover-pdf-button-paper-card: #444c56;
 }
