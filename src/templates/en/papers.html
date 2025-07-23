@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nathan Dezan - Portfolio</title>
+    <link rel="stylesheet" href="../../styles/general.css">
+    <link rel="stylesheet" href="../../styles/nav-bar.css">
+    <link rel="stylesheet" href="../../styles/pallet.css">
+    <link rel="stylesheet" href="../../styles/papers/papers-cards.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="icon" href="../../resources/icons/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="../../../index.html">HOME</a></li>
+            <li><a href="projects.html">PROJECTS</a></li>
+            <li><a href="papers.html">PAPERS</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+        </ul>
+        <div class="language-div">
+            <a id="languageButton" class="language-btn" href="../pt-br/papers.html">
+                <img src="../../resources/brazil-flat.png" alt="pt-br" class="flag-icon">
+            </a>
+        </div>
+    </nav>
+
+    <section id="content">
+        <div class="columns-container">
+            <div class="papers-section">
+                <!-- Papers Here -->
+                <div class="papers-card">
+                    <h3>A influência dos estilos de aprendizagem nos papéis de desenvolvimento de software no ambiente de ensino</h3>
+                    <h4 class="subtitle-paper-card">
+                        Published: December 2023 | Qualis CAPES: B1 | DOI: 10.56083/RCV3N12-186
+                    </h4>
+                    <p>
+                        The article analyzes the relationship between students' learning styles, based on the CHAEA model, and software development roles in an educational context. The research showed a predominance of the reflective learning style among students, suggesting that teaching practices tailored to this profile can enhance learning effectiveness. It concludes that considering students' learning styles when planning activities related to roles such as programmer, analyst, or tester can foster a more inclusive and engaging educational environment.
+                    </p>
+                    <div class="paper-footer">
+                        <a href="../../resources/papers/A Influência dos Estilos de Aprendizagem nos Papéis de Desenvolvimento de Software no Ambiente de Ensino.pdf" class="pdf-button" target="_blank">
+                            <i class="fa-solid fa-arrow-down"></i>
+                            PDF
+                        </a>
+                        <a href="https://doi.org/10.56083/RCV3N12-186" class="read-more-button" target="_blank">
+                            Read More
+                            <i class="fa-solid fa-angles-right"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="papers-card">
+                    <h3>Tempo é dinheiro: otimizando estruturas dataframe</h3>
+                    <h4 class="subtitle-paper-card">
+                        Published: November 2022 | Medium Article
+                    </h4>
+                    <p>
+                        This study presents optimization techniques for handling large datasets using the Pandas library. By converting CSV files to Pickle format, removing null values, and assigning appropriate data types, significant reductions in loading time and memory usage were achieved, with improvements exceeding 80%. These practices prove particularly effective in resource-constrained environments. The analysis highlights that simple adjustments to data structures can have a substantial impact on computational performance.
+                    </p>
+                    <div class="paper-footer">
+                        <a href="https://medium.com/@dezann/tempo-%C3%A9-dinheiro-otimizando-estruturas-dataframe-712fccc43a22" class="pdf-button" target="_blank">
+                            Read More
+                            <i class="fa-solid fa-angles-right"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="papers-card">
+                    <h3>Estudo de técnicas ensemble no aprendizado baseado numa única classe na classificação automática de textos</h3>
+                    <h4 class="subtitle-paper-card">
+                        Published: Setember 2021 | Internal University Article
+                    </h4>
+                    <p>
+                        The study evaluates the use of ensemble techniques applied to one-class learning (ABUC) for automatic text classification. Four ABUC algorithms were used: Local Outlier Factor (LOF), One Class SVM (OCSVM), Isolation Forest, and Elliptic Envelope. The research compared the individual performance of these algorithms with their combinations in an ensemble, using four text datasets. The results showed that the ensembles, especially the combination of LOF and OCSVM, outperformed the best individual results by up to 20% in the F1 score.
+                    </p>
+                    <div class="paper-footer">
+                        <a href="../../resources/papers/Estudo de Técnicas Ensemble no Aprendizado Baseado em uma Única Classe na Classificação Automática de Textos.pdf" class="pdf-button" target="_blank">
+                            <i class="fa-solid fa-arrow-down"></i>
+                            PDF
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>

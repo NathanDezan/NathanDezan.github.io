@@ -1,0 +1,90 @@
+@media (max-width: 794px) {
+    .paper-footer {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .read-more-button {
+        margin-top: 10px;
+    }
+}
+
+.papers-section {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.papers-card {
+    background-color: var(--paper-card-background-color);
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 1000px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    text-align: left;
+    transition: background-color 0.3s ease;
+}
+
+.papers-card:hover {
+    background-color: var(--paper-card-background-color-hover);
+}
+
+.papers-card h3 {
+    margin-bottom: 10px;
+}
+
+.papers-card p {
+    margin-bottom: 15px;
+    color: var(--paragraph-font-color-projects);
+    text-align: justify;
+}
+
+.subtitle-paper-card {
+    font-weight: normal;
+    color: var(--subtitle-font-color-paper-card);
+    margin: -10px 0px 10px 0px;
+}
+
+.paper-footer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 8px;
+}
+
+.pdf-button {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 4px 8px;
+    color: var(--font-home-page-color);
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    white-space: nowrap;
+}
+
+.pdf-button:hover {
+    background-color: var(--hover-pdf-button-paper-card);
+}
+
+.read-more-button {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 4px 8px;
+    color: var(--font-home-page-color);
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    white-space: nowrap;
+}
+
+.read-more-button:hover {
+    background-color: var(--hover-pdf-button-paper-card)
+}
