@@ -1,3 +1,94 @@
-<script>
-    window.location.href = "src/templates/en/home.html";
-</script>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nathan Dezan - Portfolio</title>
+    <link rel="stylesheet" href="src/styles/general.css">
+    <link rel="stylesheet" href="src/styles/pallet.css">
+    <link rel="stylesheet" href="src/styles/nav-bar.css">
+    <link rel="stylesheet" href="src/styles/home/nav-bar-selected.css">
+    <link rel="stylesheet" href="src/styles/home/left-column.css">
+    <link rel="stylesheet" href="src/styles/home/right-column.css">
+    <link rel="stylesheet" href="src/styles/home//stats-section.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="icon" href="src/resources/icons/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="src/templates/en/projects.html">PROJECTS</a></li>
+            <li><a href="src/templates/en/papers.html">PAPERS</a></li>
+            <li><a href="src/templates/en/about.html">ABOUT</a></li>
+        </ul>
+        <div class="language-div">
+            <a id="languageButton" class="language-btn" href="src/templates/pt-br/home.html">
+                <img src="src/resources/brazil-flat.png" alt="pt-br" class="flag-icon">
+            </a>
+        </div>
+    </nav>
+
+    <section id="content">
+        <div class="columns-container">
+            <div class="left-column">
+                <div class="profile-card">
+                    <img src="src/resources/photo.jpeg" alt="Nathan Dezan" class="profile-photo">
+                    <h1>Nathan Dezan</h1>
+                    <p class="position">AI/ML Engineer</p>
+                    <div class="social-links">
+                        <a href="https://github.com/NathanDezan" target="_blank">
+                            <i class="fa-brands fa-github github-icon"></i>
+                        </a>
+                        <a href="https://linkedin.com/in/nathan-dezan-002b121b2" target="_blank">
+                            <i class="fa-brands fa-linkedin linkedin-icon"></i>
+                        </a>
+                        <a href="https://medium.com/@dezann" target="_blank">
+                            <i class="fa-brands fa-medium medium-icon"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="right-column">
+                <div class="about-section">
+                    <h2>About</h2>
+                    <p>
+                        AI and Machine Learning engineer with expertise in NLP, LLMs, and cloud computing. Contributed to projects involving customer service automation, digital onboarding, and intelligent software refactoring, achieving significant gains in efficiency and cost reduction. Strong experience in developing multichannel chatbots and robust AI platforms, with expertise in systems integration and process optimization. Aims to apply technical and scientific knowledge to drive innovation and business value.
+                    </p>
+                    <button class="cv-button" onclick="downloadCV('en')">Download CV</button>
+                </div>
+
+                <div class="info-columns">
+                    <div class="interests-section">
+                        <h3>Certifications</h3>
+                        <ul>
+                            <li>
+                                <p class="degree">[AIF-C01]</p>
+                                AWS AI Practitioner
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="education-section">
+                        <h3>Education</h3>
+                        <div class="education-entry">
+                            <i class="fa-solid fa-graduation-cap"></i>
+                            <div class="education-content">
+                                <p class="degree">
+                                    Bachelor's Degree in Information Systems
+                                </p>
+                                <p class="institution">Universidade Federal de Mato Grosso do Sul</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="src/js/downloadCV.js"></script>
+</body>
+
+</html>
