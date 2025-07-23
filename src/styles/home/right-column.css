@@ -1,56 +1,13 @@
-/* 
-.right-column:
-    - Defines a flex container with a flex-grow value of 2.
-
-.about-section:
-    - Adds padding around the section for spacing.
-
-.about-section h2:
-    - Styles the heading with left alignment, a custom color, font size, and margin.
-
-.cv-button:
-    - Styles a button with transparent background, border, padding, and hover effect.
-
-.info-columns:
-    - Creates a grid layout with two columns and a gap, adjusts to a single column on smaller screens.
-
-@media (max-width: 768px):
-    - Adjusts the grid layout of .info-columns to a single column for smaller screens.
-
-.interests-section ul, .education-section:
-    - Removes default list styling and padding.
-
-.interests-section ul:
-    - Adds left padding for the list.
-
-.interests-section li:
-    - Styles list items with padding, hover effect, and a custom bullet point.
-
-.interests-section li::before:
-    - Adds a custom bullet point before each list item.
-
-.interests-section h3, .education-section h3:
-    - Styles section headings with font size, color, and margin.
-
-.education-entry:
-    - Defines a flex container for education entries with spacing, alignment, and hover effect.
-
-.fa-graduation-cap:
-    - Styles an icon with font size, margin, and padding for alignment.
-
-.degree:
-    - Highlights the degree text with bold font and custom color.
-
-.institution:
-    - Styles the institution name with a smaller font size and custom color.
-*/
-
 .right-column {
     flex: 2;
 }
 
 .about-section {
     padding: 2rem;
+}
+
+.about-section p {
+    text-align: justify;
 }
 
 .about-section h2 {
@@ -87,16 +44,28 @@
     .info-columns {
         grid-template-columns: 1fr;
     }
+
+    .columns-container {
+        gap: 0;
+    }
+
+    .about-section {
+        padding: 2rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about-section h2,
+    .about-section p {
+        align-self: flex-start;
+    }
 }
 
 .interests-section ul,
 .education-section {
     list-style: none;
     padding-left: 0;
-}
-
-.interests-section ul {
-    padding-left: 1rem;
 }
 
 .interests-section li {
@@ -145,6 +114,7 @@
     margin-top: 3px;
     flex-shrink: 0;
     padding-top: 4.1px;
+    color: var(--font-home-page-color);
 }
 
 .degree {
