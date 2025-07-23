@@ -1,0 +1,20 @@
+.description-section {
+    padding: 2rem 2rem 62px 2rem;
+    text-align: center;
+}
+
+.description-section p {
+    max-width: 900px;
+    margin: 0 auto;
+    font-size: 1rem;
+    color: var(--paragraph-font-color);
+    line-height: 1.6;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 1.8rem;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    color: var(--paragraph-font-color);
+}

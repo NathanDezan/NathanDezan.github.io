@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nathan Dezan - Portifolio</title>
+    <link rel="stylesheet" href="../../styles/general.css">
+    <link rel="stylesheet" href="../../styles/pallet.css">
+    <link rel="stylesheet" href="../../styles/nav-bar.css">
+    <link rel="stylesheet" href="../../styles/about/about.css">
+    <link rel="stylesheet" href="../../styles/about/skills-icons.css">
+    <link rel="stylesheet" href="../../styles/about/carousel-skills.css">
+    <link rel="stylesheet" href="../../styles/about/stats-section.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="icon" href="../../resources/icons/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="home.html">INICIO</a></li>
+            <li><a href="projects.html">PROJETOS</a></li>
+            <li><a href="papers.html">ARTIGOS</a></li>
+            <li><a href="about.html">SOBRE</a></li>
+        </ul>
+        <div class="language-div">
+            <a class="language-btn" href="../en/about.html">
+                <img src="../../resources/united-states-flat.png" alt="en" class="flag-icon">
+            </a>
+        </div>
+    </nav>
+
+    <section id="content">
+        <section class="stats-section">
+            <div class="stats-container">
+                <div class="stat-box">
+                    <h2>3+</h2>
+                    <p>Anos como ML Engineer</p>
+                </div>
+                <div class="stat-box">
+                    <h2>1</h2>
+                    <p>Certificação em Cloud</p>
+                </div>
+                <div class="stat-box">
+                    <h2>3</h2>
+                    <p>Artigos Publicados</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="description-section">
+            <p>
+                Transformo LLMs, NLP e automações em ganhos reais de produtividade. Já poupei até 30% no tempo de entrega de projetos. Pronto para revolucionar seu próximo desafio com IA de verdade?
+            </p>
+        </section>
+
+        <section class="carousel-section">
+            <h4 class="section-title">Skills</h4>
+            <div class="carousel-container">
+                <button class="carousel-btn prev skill-prev"><i class="fas fa-chevron-left"></i></button>
+                <div class="carousel-track skill-track">
+                    <div class="carousel-item">
+                        <div class="skills-row-slide">
+                            <div class="skill-box"><i class="fa-brands fa-python"></i><span>Python</span></div>
+                            <div class="skill-box"><i class="fa-brands fa-js"></i><span>JavaScript</span></div>
+                            <div class="skill-box"><i class="fa-brands fa-node"></i><span>Node.js</span></div>
+                            <div class="skill-box">
+                                <img src="../../resources/icons/typescript.svg" alt="TypeScript" class="typescript-icon">
+                                <span>TypeScript</span>
+                            </div>
+                            <div class="skill-box"><i class="fa-solid fa-c"></i><span>C</span></div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="skills-row-slide">
+                            <div class="skill-box"><i class="fa-solid fa-brain tensorflow-icon"></i><span>TensorFlow</span></div>
+                            <div class="skill-box"><i class="fa-solid fa-fire pytorch-icon"></i><span>PyTorch</span></div>
+                            <div class="skill-box">
+                                <img src="../../resources/icons/scikit-learn.svg" alt="Scikit-learn" class="scikit-learn-icon">
+                                <span>Scikit-learn</span>
+                            </div>
+                            <div class="skill-box"><i class="fa-solid fa-layer-group keras-icon"></i><span>Keras</span></div>
+                            <div class="skill-box">
+                                <img src="../../resources/icons/pandas.svg" alt="Pandas" class="pandas-icon">
+                                <span>Pandas</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="skills-row-slide">
+                            <div class="skill-box">
+                                <img src="../../resources/icons/matplotlib.svg" alt=Matplotlib class="matplotlib-icon">
+                                <span>Matplotlib</span>
+                            </div>
+                            <div class="skill-box"><i class="fa-solid fa-layer-group keras-icon"></i><span>Keras</span></div>
+                            <div class="skill-box">
+                                <img src="../../resources/icons/pandas.svg" alt="Pandas" class="pandas-icon">
+                                <span>Pandas</span>
+                            </div>
+                            <div class="skill-box">
+                                <img src="../../resources/icons/aws.svg" alt=AWS class="aws-icon">
+                                <span>AWS</span>
+                            </div>
+                            <div class="skill-box">
+                                <img src="../../resources/icons/azure.svg" alt=Azure class="azure-icon">
+                                <span>Azure</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="skills-row-slide">
+                            <div class="skill-box">
+                                <img src="../../resources/icons/docker.svg" alt=Docker class="docker-icon">
+                                <span>Docker</span>
+                            </div>
+                            <div class="skill-box">
+                                <img src="../../resources/icons/powerbi.svg" alt="PowerBI" class="powerbi-icon">
+                                <span>Power BI</span>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+                <button class="carousel-btn next skill-next"><i class="fas fa-chevron-right"></i></button>
+            </div>
+        </section>
+    </section>
+
+    <script src="../../js/about/carousel.js"></script>
+</body>
+
+</html>

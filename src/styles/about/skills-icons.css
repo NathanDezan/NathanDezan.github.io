@@ -1,0 +1,68 @@
+.fa-python {
+    color: #3776AB;
+}
+
+.fa-js {
+    color: #F7DF1E;
+}
+
+.fa-node {
+    color: #68A063;
+}
+
+.fa-c {
+    color: #F7DF1E;
+}
+
+.tensorflow-icon {
+    color: #FF6F00;
+}
+
+.pytorch-icon {
+    color: #EE4C2C;
+}
+
+.keras-icon {
+    color: #D00000;
+}
+
+.typescript-icon {
+    width: 24px;
+    height: 24px;
+    margin-bottom: 4px;
+}
+
+.scikit-learn-icon {
+    width: 36px;
+    height: 30px;
+}
+
+.pandas-icon {
+    width: 28px;
+    height: 28px;
+}
+
+.aws-icon {
+    width: 30px;
+    height: 30px;
+}
+
+.azure-icon {
+    width: 28px;
+    height: 28px;
+}
+
+.docker-icon {
+    width: 28px;
+    height: 28px;
+}
+
+.powerbi-icon {
+    width: 28px;
+    height: 28px;
+}
+
+.matplotlib-icon {
+    width: 30px;
+    height: 30px;
+}
